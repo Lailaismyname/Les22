@@ -1,18 +1,17 @@
 /* kleuren blauwig: #0B8CA7 oranjeroodig: #A7250B */
 body{
-    padding-top: 50px;
     background-color:#0B8CA7;
 }
 
 #main-container{
     background-color: #0B8CA7;
     color:#054450;
-    padding: 10%;
+    margin-top: 60px;
 }
 
 .car{
     border-radius: 5%;
-    height: 100%;
+    margin-top: 60px;
 }
 
 .img_grid{
@@ -21,10 +20,14 @@ body{
     border-radius: 5%;
 }
 .welkomtitel{
-    padding-top: 20px;;
+    padding-top: 20px;
 }
 
 .navcustom{
     background-color: #A7250B;   
     color: #F79783;
+}
+
+.formulier{
+    margin-top: 60px;
 }
