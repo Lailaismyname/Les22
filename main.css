@@ -56,16 +56,42 @@ footer{
     color:#0B8CA7;
 }
 
+.over-mij-foto{
+    display: flex;
+    margin-right: auto;
+    margin-left:auto;
+    border: 2px solid #054450;
+}
+
+.container-info{
+    border: 3px solid #054450;
+    background-color: #0B9CB8;
+    text-align: center;
+}
+
 #werkervaring{
     width: 100%;
-    background-color: #054450;
-    color:#0B8CA7;
+    background-color: #0B9CB8;
+    color:#054450;
     border:1px solid #FCD9D2;
     font-size: xx-small;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 20px;
+    margin-top: 50px;
 }
-.table-container{
-    /*deze nog nodig voor iets?*/
+th,td{
+    border: 2px solid #054450;
+}
+th{
+    background-color: #A7250B;
+}
+/*ff uittesten, is 992px of 768px beter?*/
+@media screen and (min-width: 768px){
+    #werkervaring{
+        font-size: large;
+    }
+    .container-info{
+        font-size: xx-large;
+    }
 }
