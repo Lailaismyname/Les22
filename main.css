@@ -47,3 +47,25 @@ footer{
     font-size: large;
     text-align: center; 
 }
+#foto-credit{
+    font-size: xx-small;
+}
+
+.kaart-lichaam{
+    background-color:#054450;
+    color:#0B8CA7;
+}
+
+#werkervaring{
+    width: 100%;
+    background-color: #054450;
+    color:#0B8CA7;
+    border:1px solid #FCD9D2;
+    font-size: xx-small;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+.table-container{
+    /*deze nog nodig voor iets?*/
+}
