@@ -36,18 +36,43 @@
           </div>
         </div>
       </nav>
-    <!--Note to self, centreer het contactformulier!
+    <!--Note to self, centreer het contactformulier! en moet in een table. 
     maak contact formulier met naam, email en bericht met verzendknop.
     Werkend met dat formspree-->
-    <div class="mb-3 formulier">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
+    
 
+    <!--Contact formulier-->
+    <div class="container-sm col-12 formulierwrapper">
+      <form method="post" action="">
+        <h3>Neem contact op</h3>
+        <table id="contactformulier">
+        <tbody>
+          <tr>
+            <td class="col-1"><label for="voornaam">Voornaam</label></td>
+            <td class="col-7"><input id="voornaam" type="text" name="voornaam" placeholder="Kik"></td>
+          </tr>
+          <tr>
+            <td class="col-1"><label for="achternaam">Achternaam</label></td>
+            <td class="col-7"><input id="achternaam" type="text" name="achternaam" placeholder="van der Ker"></td>
+          </tr>
+          <tr>
+            <td><label for="email">E-mail</label></td>
+            <td><input id="email" type="email" name="email" placeholder="Kikvanderker@emailadress.nl"></td>
+          </tr>
+          <tr>
+            <td><label for="telefoonnummer">Telefoonnummer</label></td>
+            <td><input id="telefoonnummer" type="tel" name="telefoonnummer" placeholder="06-12345678"></td>
+          </tr>
+          <tr>
+            <td><textarea name="bericht" placeholder="laat hier uw bericht achter"></textarea></tr></td>
+        <tr>
+          <td><input class="form-submit-btn" type="submit" value="verzend"></td>
+        </tr>
+        </tbody>
+      </table>
+      </form>
+    </div>
+      
       <footer>
         <p>Copyright &copy; Kik van der Ker, 2022</p>
         <p id="foto-credit">Images by <a href="https://pixabay.com/users/alexas_fotos-686414/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1037251">Alexas_Fotos</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1037251">Pixabay</a></p>
