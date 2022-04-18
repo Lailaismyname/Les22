@@ -1,4 +1,5 @@
 /* kleuren blauwig: #0B8CA7 oranjeroodig: #A7250B */
+/*terugkerende styles*/
 body{
     background-color:#0B8CA7;
     height: 100vh;
@@ -6,19 +7,31 @@ body{
     display: flex;
     flex-direction: column;
 }
-
+.navcustom{
+    background-color: #A7250B;   
+    color: #054450;
+}
+footer{
+    margin-top: auto;
+    background-color: #A7250B;
+    color:#FDE5E1;
+    font-size: large;
+    text-align: center; 
+}
 #main-container{
     background-color: #0B8CA7;
     color:#054450;
     margin-top: 60px;
     padding: 0 10%;
 }
-
+#foto-credit{
+    font-size: xx-small;
+}
+/*index*/
 .car{
     border-radius: 5%;
     margin-top: 60px;
 }
-
 .img-grid{
     width: 100%;
     height:100%;
@@ -30,32 +43,12 @@ body{
 .welkomtitel{
     padding-top: 20px;
 }
-
-.navcustom{
-    background-color: #A7250B;   
-    color: #054450;
-}
-
-.formulier{
-    margin-top: 60px;
-}
-
-footer{
-    margin-top: auto;
-    background-color: #A7250B;
-    color:#FDE5E1;
-    font-size: large;
-    text-align: center; 
-}
-#foto-credit{
-    font-size: xx-small;
-}
-
 .kaart-lichaam{
     background-color:#054450;
     color:#0B8CA7;
 }
 
+/*overmij*/
 .over-mij-foto{
     display: flex;
     margin-right: auto;
@@ -80,11 +73,12 @@ footer{
     margin-bottom: 20px;
     margin-top: 50px;
 }
-th,td{
+.tablehead, .tabledata{
     border: 2px solid #054450;
 }
-th{
+.tablehead{
     background-color: #A7250B;
+    
 }
 @media screen and (min-width: 768px){
     #werkervaring{
@@ -113,6 +107,7 @@ table, td, tr{
     margin:auto;
     border: 2px solid #054450;
     padding: 10%;
+    font-size: small;
 }
 
 .form-submit-btn{
