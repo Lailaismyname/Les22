@@ -43,28 +43,28 @@
 
     <!--Contact formulier-->
     <div class="container-sm col-12 formulierwrapper">
-      <form method="post" action="">
+      <form method="post" action="https://formspree.io/f/mbjwzwkk">
         <h3>Neem contact op</h3>
         <table id="contactformulier">
         <tbody>
           <tr>
             <td class="col-1"><label for="voornaam">Voornaam</label></td>
-            <td class="col-7"><input id="voornaam" type="text" name="voornaam" placeholder="Kik"></td>
+            <td class="col-7"><input id="voornaam" type="text" name="voornaam" placeholder="Kik" required></td>
           </tr>
           <tr>
             <td class="col-1"><label for="achternaam">Achternaam</label></td>
-            <td class="col-7"><input id="achternaam" type="text" name="achternaam" placeholder="van der Ker"></td>
+            <td class="col-7"><input id="achternaam" type="text" name="achternaam" placeholder="van der Ker" required></td>
           </tr>
           <tr>
             <td><label for="email">E-mail</label></td>
-            <td><input id="email" type="email" name="email" placeholder="Kikvanderker@emailadress.nl"></td>
+            <td><input id="email" type="email" name="email" placeholder="Kikvanderker@emailadress.nl" required></td>
           </tr>
           <tr>
             <td><label for="telefoonnummer">Telefoonnummer</label></td>
-            <td><input id="telefoonnummer" type="tel" name="telefoonnummer" placeholder="06-12345678"></td>
+            <td><input id="telefoonnummer" type="tel" name="telefoonnummer" placeholder="06-12345678" required></td>
           </tr>
           <tr>
-            <td><textarea name="bericht" placeholder="laat hier uw bericht achter"></textarea></tr></td>
+            <td><textarea name="bericht" placeholder="laat hier uw bericht achter" required></textarea></tr></td>
         <tr>
           <td><input class="form-submit-btn" type="submit" value="verzend"></td>
         </tr>
