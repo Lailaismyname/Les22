@@ -85,11 +85,16 @@ footer{
     
 }
 @media screen and (min-width: 768px){
+    /*overmij*/
     #werkervaring{
         font-size: large;
     }
     .container-info{
         font-size: xx-large;
+    }
+    /*contact*/
+    .formulierwrapper{
+        border: 2px solid #054450;
     }
 }
 
@@ -110,7 +115,6 @@ table, td, tr{
 }
 .formulierwrapper{
     margin: 7em auto;
-    border: 2px solid #054450;
     padding: 10%;
     font-size: small;
 }
